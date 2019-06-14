@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/13445688/how-to-generate-a-random-number-in-c
+-> Justificar o uso da média de comparaçoes e de movimentacaoes para todos os tipos de vetor;
