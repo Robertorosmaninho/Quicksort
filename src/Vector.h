@@ -11,6 +11,6 @@ public:
 	int* OrdemDecrescente();
 	int* OrdemAleatoria();
 
-	void OrdenaDouble(int tamanho, double *tempo);
+	void OrdenaDouble(int tamanho, long double *tempo);
 	int* CopiaVetor();
 };

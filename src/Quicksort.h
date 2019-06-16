@@ -4,7 +4,7 @@
 class QuickSort{
 private:	
 	int *_vetor;
-	int _mov, _comp;
+	long long int _mov, _comp;
 	int _tamanho;
 	int _caso;
 
@@ -29,8 +29,8 @@ public:
 	int *Insercao10();
 	int *Iterativo();
 
-	int  get_comp(); //Número de Comparações entre Chaves
-	int  get_mov(); //Número de Movimentações de Registros
+	long long int  get_comp(); //Número de Comparações entre Chaves
+	long long int  get_mov(); //Número de Movimentações de Registros
 	double get_tempo(int Caso); //Tempo para Executar um Sort
 };
 

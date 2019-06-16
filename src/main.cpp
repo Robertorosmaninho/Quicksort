@@ -9,7 +9,7 @@
 #include "Quicksort.h"
 #include "Vector.h"
 
-#define NUM_TESTES 1
+#define NUM_TESTES 21
 
 int main(int argc, char *argv[ ]){
 	
@@ -21,8 +21,8 @@ int main(int argc, char *argv[ ]){
 	
 	//Declara varáveis importantes
 	int *vetores[NUM_TESTES], *vetor, n;
-	double tempo[NUM_TESTES], tempo_mediano, n_comp_medio = 0, n_mov_medio = 0;
-	unsigned long int  n_comp[NUM_TESTES], n_mov[NUM_TESTES]; 
+	long double tempo[NUM_TESTES], tempo_mediano, n_comp_medio=0, n_mov_medio=0;
+	long long int  n_comp[NUM_TESTES], n_mov[NUM_TESTES]; 
 	std::string variacao, tipo, tamanho, detalhes;
 
 	//Le Argumentos

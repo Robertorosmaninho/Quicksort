@@ -46,7 +46,7 @@ int* Vector::OrdemAleatoria(){
 }
 
 //Função para ordenar os tempos de execução - Pequenos Casos - Inserção
-void Vector::OrdenaDouble(int tamanho, double *tempo){
+void Vector::OrdenaDouble(int tamanho, long double *tempo){
 	int j;
   double aux;
   for(int i = 1; i < tamanho; i++){

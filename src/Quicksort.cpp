@@ -207,11 +207,13 @@ int* QuickSort::Iterativo(){
 	return this->_vetor;
 }
 
-
-int  QuickSort::get_comp(){ //Número de Comparações entre Chaves
+//Número de Comparações entre Chaves
+long long int  QuickSort::get_comp(){
 	return this->_comp;
 }
-int  QuickSort::get_mov(){ //Número de Movimentações de Registros
+
+//Número de Movimentações de Registros
+long long int  QuickSort::get_mov(){ 
 	return this->_mov;
 }
 double QuickSort::get_tempo(int Caso){
